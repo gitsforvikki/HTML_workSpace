@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <title>HTML Figure & Figcaption</title>
+    <style>
+
+
+        .gallery-section{
+            text-align: center;
+            margin: 10px 0;
+        }
+        .gallery-figure{
+            border: 2px solid darkred;
+            width: 300px;
+            display: inline-block;
+            margin: 5px;
+            padding: 5px;
+            border-radius: 10px;
+        }
+        .gallery-figure:hover{
+            box-shadow: 0 0 10px darkred;
+        }
+        .gallery-zoom{
+            width: 300px;
+            height: 200px;
+            overflow: hidden;
+            border-radius: 10px;
+        }
+        .gallery-zoom img{
+            width: inherit;
+            height: inherit;
+            border-radius: 10px;
+            transition: all 0.5s;
+        }
+        .gallery-zoom:hover img{
+            transform: scale(1.2,1.2);
+        }
+        .gallery-figure figcaption{
+            color: darkred;
+            padding: 10px;
+        }
+
+        footer{
+            background-color: black;
+            color: white;
+            font-size: 20px;
+            text-align: center;
+            padding: 20px;
+        }
+        a{
+            color: white;
+            font-size: 40px;
+            text-decoration: none;
+        }
+        .abc{
+
+            bottom: 0px;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- 1_HTML Figure & Figcaption Elements -->
+
+    <h1 style="text-align: center; font-size: 60px">Gallery</h1>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+
+        <!-- Mobile 1 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Mobile 1</figcaption>
+        </figure>
+
+        <!-- Mobile 2 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Mobile 2</figcaption>
+        </figure>
+
+
+        <!-- Mobile 3 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Mobile 3</figcaption>
+        </figure>
+
+        <!-- Mobile 4 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Mobile 4</figcaption>
+        </figure>
+
+        <!-- Laptop 1 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Laptop 1</figcaption>
+        </figure>
+
+        <!-- Laptop 2 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Laptop 2</figcaption>
+        </figure>
+
+        <!-- Laptop 3 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Laptop 3</figcaption>
+        </figure>
+
+        <!-- Laptop 4 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Laptop 4</figcaption>
+        </figure>
+
+
+        <!-- Tablet 1 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Tablet 1</figcaption>
+        </figure>
+
+        <!-- Tablet 2 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Tablet 2</figcaption>
+        </figure>
+
+        <!-- Tablet 3 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Tablet 3</figcaption>
+        </figure>
+
+        <!-- Tablet 4 -->
+        <figure class="gallery-figure animated jackInTheBox">
+            <div class="gallery-zoom">
+                <img src="img/laptop_4.jpg">
+            </div>
+            <figcaption>Tablet 4</figcaption>
+        </figure>
+
+    </section>
+
+
+
+
+    <div class="abc">
+        <footer>
+            <p>Developed & Maintained by
+                <a href="https://github.com/gitsforvikki"><i class="fa fa-user-circle"></i>
+                    vicky<sup>&reg;</sup></a>
+            </p>
+        </footer>
+
+
+    </div>
+
+</body>
+</html>

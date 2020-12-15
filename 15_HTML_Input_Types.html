@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Input Types</title>
+    <style>
+        body {
+            font-family: "Comic Sans MS", sans-serif;
+            background-color: aqua;
+        }
+        #practice{
+            background-color: yellow;
+            margin-bottom: 500px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1 align="center">HTML Input Types</h1>
+
+    <!-- input type text -->
+    <h2>Text Box</h2>
+    <div>
+        <form>
+            <label>user name</label>
+            <input type="text">
+        </form>
+    </div>
+<br><hr>
+
+    <!-- input type password -->
+    <h2>Password Box</h2>
+    <div>
+        <form>
+            <label>password</label>
+            <input type="password">
+        </form>
+    </div>
+
+<br><hr>
+
+    <div>
+        <form>
+            <h2>input type submit</h2>
+
+            <label>password</label>
+            <input type="password">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <br><hr>
+
+    <h2>input type reset</h2>
+    <div>
+        <form>
+            <label>username</label>
+            <input type="text">
+            <label>password</label>
+            <input type="password">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+<br><hr>
+
+    <!-- input type radio -->
+    <h2>Radio Field</h2>
+<div>
+    <form>
+        <label>select  your gender</label>
+        <input type="radio" value="a" NAME="hello">MALE
+        <input type="radio" value="b" NAME="hello">FEMALE
+    </form>
+    <br><br>
+
+</div>
+
+    <br><hr>
+    <!-- input type checkbox -->
+    <h2>Check Box</h2>
+    <div>
+        <form>
+            <label>select your hobies</label>
+            <input type="checkbox" value="eating">eating  <!--value="" is optional-->
+            <input type="checkbox" value="dancing">dancing  <!--value="" is optional-->
+            <input type="checkbox" value="codding">coding  <!--value="" is optional-->
+        </form>
+        <br><br>
+
+        <form>
+            <label> which color you like?</label>
+            <input type="checkbox" value="pink">PINK  <!--value="" is optional-->
+            <input type="checkbox" value="red">RED  <!--value="" is optional-->
+            <input type="checkbox" value="yello">YELLOW  <!--value="" is optional-->
+            <input type="checkbox" value="blue">BLUE  <!--value="" is optional-->
+        </form>
+    </div>
+    <br><hr>
+
+    <!-- HTML5 Input Types color, date, datetime-local, email,
+    month, number, range, search, time, url, Week-->
+
+    <h1 align="center">HTML5 Input Types</h1>
+
+    <!-- color -->
+    <h2>Input Type color</h2>
+    <div>
+        <form>
+            <label>select color</label>
+            <input type="color">
+        </form>
+    </div>
+
+    <br><hr>
+
+    <!-- date -->
+    <h2>Input Type date</h2>
+    <div>
+        <form>
+            <label>select data</label>
+            <input type="date">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <br><hr>
+
+    <!-- datetime-local -->
+    <h2>Input Type datetime-local</h2>
+    <div>
+        <form>
+            <label>select datetime local</label>
+            <input type="datetime-local">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <br><hr>
+
+    <!-- email -->
+    <h2>Input Type email</h2>
+    <div>
+        <form>
+            <label>select your email</label>
+            <input type="email">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <br><hr>
+
+    <!-- month -->
+    <h2>Input Type month</h2>
+    <div>
+        <form>
+            <label>select  month</label>
+            <input type="month">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <br><hr>
+
+    <!-- number -->
+    <h2>Input Type number</h2>
+    <div>
+        <form>
+            <label>select your age</label>
+            <input type="number" min="18" max="60">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <br><hr>
+
+    <!-- range -->
+    <h2>Input Type range</h2>
+    <div>
+        <form>
+            <label>select a range </label>
+            <input type="range" min="0" max="100">
+            <input type="reset" value="reset">
+        </form>
+    </div>
+    <br><hr>
+
+    <!-- search -->
+    <h2>Input Type search</h2>
+
+    <div>
+        <form>
+            <label>search here</label>
+            <input type="search">
+        </form>
+    </div>
+
+    <br><hr>
+
+    <!-- time -->
+    <h2>Input Type time</h2>
+    <div>
+        <form>
+            <label>select a time</label>
+            <input type="time">
+            <input type="reset" value="reset">
+        </form>
+
+
+        <br><hr>
+
+
+    <!-- week -->
+    <h2>Input Type week</h2>
+    <div>
+        <form>
+            <label>select  week</label>
+            <input type="week">
+        </form>
+    </div>
+
+
+
+    <br><br><br>
+
+........................................................................
+<div id="practice">
+    <form>
+        <label>username</label>
+        <input type="text">
+    </form>
+    <form>
+        <label>password</label>
+        <input type="password">
+        <input type="submit" value="submit">
+        <input type="reset" value="reset">
+    </form>
+    <form>
+        <label>is html is easy?</label>
+        <input type="radio" name="vikki">yes
+        <input type="radio" name="vikki" >no
+        <input type="radio" name="vikki">Don't know
+    </form>
+
+    <form>
+        <label>what is your hobies?</label>
+        <input type="checkbox" name="eating">eating
+        <input type="checkbox" name="driving">driving
+        <input type="checkbox" name="reading book">reading book
+        <input type="checkbox" name="dancing">dancing
+    </form>
+    <form>
+        <label>select a color</label>
+        <input type="color">
+    </form>
+    <form>
+        <label>select a date</label>
+        <input type="date">
+    </form>
+    <form>
+        <label>select date time local</label>
+        <input type="datetime-local">
+    </form>
+    <form>
+        <label>enter your email</label>
+        <input type="email">
+        <input type="submit" value="submit">
+    </form>
+    <form>
+        <label>select  a month</label>
+        <input type="month">
+    </form>
+    <form>
+        <label>enter your age</label>
+        <input type="number" min="10" max="60">
+        <input type="submit" value="submit">
+    </form>
+
+    <form>
+        <label>select range</label>
+        10<input type="range" min="10" max="100" id="some">100
+        <input type="button" value="send" onclick="alert(document.getElementById('some').value)">
+
+    </form>
+    <form>
+        <label>search here</label>
+        <input type="search">
+    </form>
+    <form>
+        <label>select a time</label>
+        <input type="time">
+    </form>
+    <form>
+        <label>enter url</label>
+        <input type="url">
+        <input type="submit" value="submit">
+    </form>
+
+
+</div>
+    </div>
+
+    ...............................practise..........
+<div>
+    <form>
+        <label>username</label>
+        <input type="text">
+    </form>
+        <form>
+            <label>email</label>
+            <input type="email">
+
+        </form>
+        <form>
+            <label>password</label>
+            <input type="password">
+        </form>
+
+
+        <form>
+            <label>roll number</label>
+            <input type="number">
+        </form>
+        <fotm>
+            <input type="submit" value="click here">
+            <input type="reset" value="reset">
+        </fotm>
+
+    <form>
+        <label>is javascript easy?</label>
+        <input type="radio" name="vikki">yes
+        <input type="radio" name="vikki">no
+    </form>
+    <form>
+        <label>what is your hobbies?</label>
+        <input type="checkbox">playng
+        <input type="checkbox">driving
+        <input type="checkbox"> reading books
+        <input type="checkbox">singing
+    </form>
+    <div>
+        <form>
+            <label>select a color</label>
+            <input type="color">
+            <input type="reset">
+        </form>
+
+        <form>
+            <label>select date of birth</label>
+            <input type="date">
+            <input type="reset">
+        </form>
+
+
+    </div>
+    <div>
+        <form>
+            <label>enter your age</label>
+            <input type="number" min="18" max="60">
+            <input type="submit">
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>select a range</label>
+            10<input type="range" min="10" max="100" id="vikki">100
+            <input type="button" value="click" onclick="alert(document.getElementById('vikki').value)">
+
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>select a time</label>
+            <input type="time">
+            <input type="reset">
+        </form>
+    </div>
+    <div>
+        <form>
+            <label>search here</label>
+            <input type="search">
+            <input type="submit">
+        </form>
+    </div>
+
+    <div>
+        <form>
+            <label>enter url</label>
+            <input type="url">
+            <input type="submit">
+        </form>
+    </div>
+
+
+
+
+
+
+</div>
+
+</body>
+</html>

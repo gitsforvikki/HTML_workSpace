@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Form Elements</title>
+    <style>
+        body{
+            background-color: aqua;
+            font-family: "Comic Sans MS",sans-serif;
+        }
+        #new{
+            background-color: yellow;
+            margin-bottom: 500px;
+        }
+    </style>
+</head>
+<body>
+
+
+    <!-- Simple Login Form -->
+    <h2>Simple Login Form</h2>
+    <div>
+        <form>
+            <label for="username">username</label>
+            <input type="text">
+            <br>
+            <label for="password">password</label>
+            <input type="password">
+            <br>
+            <input type="submit" value="submit">
+        </form>
+    </div>
+    <hr>
+
+
+    <!-- Login form with Table -->
+    <h2>Login Form with Table</h2>
+    <div>
+        <form>
+            <table>
+                <tr>
+                    <td><label for="username">username</label></td>
+                    <td><input type="text"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">password</label></td>
+                    <td><input type="password"></td>
+
+                </tr>
+                <tr>
+                    <td><input type="submit" value="submit"></td>
+                </tr>
+            </table>
+        </form>
+    </div>
+
+    <hr><br>
+
+    <!-- Select box with Options -->
+    <h2>Select Box with Options</h2>
+    <div>
+    <form>
+        <label>select your choice</label>
+        <select>
+            <option>html</option>
+            <option>css</option>
+            <option>javascript</option>
+            <option>bootstrap</option>
+            <option>jquary</option>
+        </select>
+    </form>
+    </div>
+
+    <br><hr>
+
+    <!-- Textarea box -->
+    <h2>Textarea box</h2>
+    <div>
+        <form>
+            <label>enter your massege</label>
+            <textarea row="10" col="50"></textarea>
+        </form>
+    </div>
+    <br><hr>
+
+    <!-- Datalist (HTML5) -->
+    <h2>Datalist (HTML5)</h2>
+<div>
+    <form>
+        <label for="technologies">select your languge</label>
+        <input list="technologies">
+        <datalist id="technologies">
+
+            <option value="c"></option>
+            <option value="c++"></option>
+            <option value="java"></option>
+            <option value="python"></option>
+            <option value="c#"></option>
+            <option value="javascript"></option>
+
+        </datalist>
+    </form>
+</div>
+
+    <br><hr>
+
+<div id="new">
+    <form>
+        <table>
+            <tr>
+                <td><label>username</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>password</label></td>
+                <td><input type="password"></td>
+            </tr>
+
+            <tr>
+                <td><label>select a language</label></td>
+                <td>
+                    <select>
+                        <option>HTML</option>
+                        <option>CSS</option>
+                        <option>BOOTSTRAP</option>
+                        <option>JAVASCRIPT</option>
+                        <option>NODEJS</option>
+                    </select>
+                </td>
+            </tr>
+
+            <tr>
+                <td><input type="submit" value="submit"></td>
+                <td><input type="reset" value="reset"></td>
+            </tr>
+        </table>
+    </form>
+
+    <br><hr>
+
+    <form>
+        <label><ins>select a language/script</ins></label>
+        <select>
+            <optgroup label="language">
+                <option>c</option>
+                <option>c+</option>
+                <option>java</option>
+                <option>python</option>
+            </optgroup>
+
+            <optgroup label="script">
+                <option>javascript</option>
+                <option>sell script</option>
+            </optgroup>
+        </select>
+    </form>
+
+    <form>
+        <label>write your message</label>
+        <textarea rows="5" cols="10"></textarea>
+    </form>
+
+    <form>
+        <label for="language">select a language</label>
+        <input list="language">
+        <datalist id="language">
+
+            <option>c</option>
+            <option>c+</option>
+            <option>java</option>
+            <option>python</option>
+            <option>c#</option>
+            <option>javascript</option>
+
+        </datalist>
+    </form>
+</div>
+
+<hr><hr>
+
+<div>
+    <form>
+        <table>
+            <tr>
+                <td><label>Name</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label>age</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label>roll number</label></td>
+                <td><input type="number"></td>
+            </tr>
+            <tr>
+                <td><label>email</label></td>
+                <td><input type="email"></td>
+            </tr>
+            <tr>
+                <td><label> password</label></td>
+                <td><input type="password"></td>
+            </tr>
+        </table>
+    </form>
+</div>
+
+<h3>selection box</h3>
+<form>
+    <label>select a subject</label>
+    <select>
+        <option>html</option>
+        <option>css</option>
+        <option>javascript</option>
+    </select>
+</form>
+
+<form>
+    <label>select a game</label>
+    <select>
+        <optgroup label="indoor game">
+            <option>tabel tenis</option>
+            <option>badminton</option>
+            <option>chess</option>
+        </optgroup>
+        <optgroup label="outdoor game">
+            <option>cricket</option>
+            <option>hocky</option>
+            <option>football</option>
+        </optgroup>
+    </select>
+</form>
+
+<form>
+    <label> message</label>
+    <textarea rows="2" cols="10"></textarea>
+</form>
+
+<div>
+    <form>
+        <label for="game">select a game</label>
+        <input list="game">
+        <datalist id="game">
+            <option>cricket</option>
+
+            <option>football</option>
+
+            <option>hocky</option>
+
+            <option>tabletenis</option>
+
+            <option>kabadi</option>
+        </datalist>
+    </form>
+</div>
+
+
+</body>
+</html>

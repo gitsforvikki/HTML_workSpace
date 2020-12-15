@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML Table TAG</title>
+    <style>
+
+        table,th,td {
+            border: 2px solid red;
+            border-collapse: collapse;
+            text-align: center;
+
+        }
+
+
+
+
+
+    </style>
+</head>
+<body>
+
+    <!-- Simple Table -->
+    <h3> <ins>Simple Table</ins> </h3>
+    <table>
+        <thead>
+        <tr>
+            <th>sno.</th>
+            <th>name</th>
+            <th>address</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>munna</td>
+            <td>bihar</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>dheeraj</td>
+            <td>madhubani</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>vikash</td>
+            <td>gopalganj</td>
+        </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Table with Col Span -->
+    <h3> Table with Col Span </h3>
+    <table>
+        <thead>
+        <tr>
+            <th>sno</th>
+            <th colspan="2">name & address</th>
+
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>munna</td>
+            <td>gopalganj</td>
+
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>vikash</td>
+            <td>bihar</td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>rahul</td>
+            <td>begusharaiya</td>
+
+        </tr>
+        </tbody>
+    </table>
+
+
+    <!-- Table With Row Span -->
+    <h3> Table With Row Spaw</h3>
+    <table>
+        <thead>
+        <tr>
+            <th>sno</th>
+            <th>name</th>
+            <td>address</td>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td rowspan="2">1</td>
+            <td>munna</td>
+            <td>gopalganj</td>
+        </tr>
+        <tr>
+            <td>vikash</td>
+            <td>bihar</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>rahul</td>
+            <td>begusharaiya</td>
+        </tr>
+        </tbody>
+    </table>
+
+    <br><br><br>
+
+    <!--TABLE WITH ROW AND COLUMN SPAN-->
+    <table>
+        <thead>
+        <tr>
+            <th>s.no</th>
+            <th>name</th>
+            <th colspan="2"> class roll and uni.roll no.</th>
+            <th>branch</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <td>1</td>
+            <td>vikash kumar</td>
+            <td>704</td>
+            <td>170280507</td>
+            <td  rowspan="4">I.T</td>
+
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>dheeraj kumar jha</td>
+            <td>701</td>
+            <td>170287364</td>
+
+
+        </tr>
+
+        <tr>
+            <td>3</td>
+            <td>rahul kumar</td>
+            <td>703</td>
+            <td>170280503</td>
+
+
+        </tr>
+
+        <tr>
+            <td>4</td>
+            <td>kuldeep singh</td>
+            <td>704</td>
+            <td>183763663</td>
+
+
+        </tr>
+        </tbody>
+    </table>
+
+    <!-- Custom Table with CSS -->
+    <h3> Custom Table with CSS </h3>
+
+
+</body>
+</html>

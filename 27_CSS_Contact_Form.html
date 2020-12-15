@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Contact Form</title>
+    <style>
+        .contact-div{
+            background: linear-gradient(45deg,teal,lightseagreen);
+            width: 250px;
+            padding: 15px;
+            font-family: Arial, sans-serif;
+            box-shadow: 0 0 5px lightseagreen;
+            color: white;
+            margin: auto;
+        }
+        .contact-div h2{
+            text-align: center;
+        }
+        .contact-form label , input{
+            display: block;
+        }
+        .form-group{
+            margin: 5px;
+        }
+        input[type='text'],input[type='email'] , select{
+            font-size: 18px;
+            width: 230px;
+            margin: 5px 0;
+            height: 30px;
+            outline: none;
+            border: none;
+        }
+        .contact-form textarea{
+            width: 230px;
+            border: none;
+            outline: none;
+            margin: 5px 0;
+        }
+        .contact-form input[type='submit']{
+            background: linear-gradient(45deg,teal,lightseagreen);
+            font-size: 18px;
+            width: 230px;
+            border: none;
+            outline: none;
+            padding: 10px 25px;
+            box-shadow: 0 0 3px lightseagreen;
+            color: white;
+        }
+        .contact-form input[type='submit']:hover{
+            background: linear-gradient(45deg,lightseagreen,teal);
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contact-div">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <div class="form-group">
+                <label>NAME</label>
+                <input type="text" value="vicky" required placeholder="name here" autofocus>
+            </div>
+            <div class="form-group">
+                <label>Email</label>
+                <input type="email" value="vicky@gmail.com" required placeholder="email here" autofocus>
+            </div>
+            <div class="form-group">
+                <label for="subject">Subject</label>
+                <input list="subject" required>
+                <datalist id="subject">
+                    <option>Enquiry</option>
+                    <option>Updates</option>
+                    <option>Career Options</option>
+                    <option>Contribute</option>
+                </datalist>
+            </div>
+            <div class="form-group">
+                <label>Description</label>
+                <textarea rows="4" cols="20"  required></textarea>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Contact Us">
+            </div>
+        </form>
+    </div>
+
+</body>
+</html>
